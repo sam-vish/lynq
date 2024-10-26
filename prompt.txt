@@ -1,0 +1,33 @@
+Create a conversational AI-driven social media post generator called Lynq AI that helps users create engaging posts for platforms like LinkedIn, Twitter, Facebook, and Instagram. Users should be able to connect to these platforms through a navigation drawer and engage in voice-based conversations with AI to generate posts.
+
+Project Requirements
+Authentication and Database
+
+Implement user authentication using Supabase Auth for Google-based login/signup.
+Use Supabase Database to store user data, including conversations and generated content.
+Supabase Credentials:
+Supabase URL: https://tuaobhxkvkbvtbqvuvyd.supabase.co
+Supabase Anon Key: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InR1YW9iaHhrdmtidnRicXZ1dnlkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mjk5Njk5MTEsImV4cCI6MjA0NTU0NTkxMX0.zd2tvmQvZBFri37QcG1lKIHVZqj_9IggDOHvLAYhrG4
+Key Functionalities
+
+Platform Integration: Provide easy, button-based platform integration in the navigation drawer. For example, users can connect with LinkedIn, Twitter, etc., to tailor posts for each specific platform.
+Voice and Text Input: Users should be able to interact with AI via voice (using Web Speech API or similar) or text. Voice input should convert to text for post generation.
+Post and Image Generation:
+Text Generation: Use the Mistral model from Hugging Face API (token: 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) to create viral text posts.
+Image Generation: Use Flux model to generate custom images for posts.
+Post Generation Command: Once the user conversation ends, allow the user to command the AI to generate a post (e.g., "Create the post"). The AI should analyze the conversation data and generate the relevant post with both text and images.
+UI/UX Requirements
+
+Create a modern, intuitive, and visually appealing UI/UX interface with animations for a seamless user experience. Use libraries like Tailwind CSS for styling and Framer Motion for animations (e.g., smooth transitions, hover effects).
+Include a chat interface where users can interact with the AI, view conversation history, and review generated posts.
+Organize the navigation drawer for easy access to social media integrations, conversation history, and logout options.
+Storage and History
+
+Store conversation history (text/audio) and generated images in Supabase for easy access and future reference. Allow users to view, rename, or delete conversation records directly from the navigation drawer.
+Libraries and Dependencies
+Supabase: For user authentication and database
+React Speech Recognition: For voice input handling
+Hugging Face API: For Mistral (text generation) and Flux (image generation) models
+Tailwind CSS and Framer Motion: For modern UI styling and animations
+Expected Output
+Build a fully functional, responsive app with clear organization, polished UI/UX, and the ability to generate and store social media posts based on AI conversations.
