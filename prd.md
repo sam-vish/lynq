@@ -42,7 +42,7 @@ LynqAI is a LinkedIn post generator that enables users to create engaging posts 
 - **Database**: Supabase
 - **Web Scraping**: Puppeteer
 - **Language Model**: Hugging Face's Mistral LLM
-- **State Management**: React Context API or Redux (if needed)
+- **State Management**: React Context API
 - **Deployment**: Vercel (for Next.js)
 
 ## User Flow
@@ -60,10 +60,6 @@ LynqAI is a LinkedIn post generator that enables users to create engaging posts 
    - Users input a topic for their new LinkedIn post.
    - The application uses the scraped data and user input to generate a new post using the Mistral LLM.
    - Users can preview the generated post and make any necessary edits.
-
-4. **Post Submission**
-   - Users can submit the generated post to their LinkedIn profile directly from the application.
-   - Optionally, users can save posts to their profile for later use.
 
 ## Requirements
 
@@ -93,27 +89,6 @@ LynqAI is a LinkedIn post generator that enables users to create engaging posts 
 3. **Usability**
    - Intuitive user interface with clear instructions and feedback.
 
-## Milestones and Timeline
-
-1. **Phase 1: Research and Planning** (2 weeks)
-   - Research LinkedIn's scraping policies and regulations.
-   - Define user stories and acceptance criteria.
-
-2. **Phase 2: Prototype Development** (4 weeks)
-   - Develop the frontend interface with Next.js and React.
-   - Set up the backend with API routes for authentication and scraping.
-
-3. **Phase 3: Integrate Post Generation** (3 weeks)
-   - Integrate the Mistral LLM for content generation.
-   - Implement data scraping with Puppeteer.
-
-4. **Phase 4: Testing and Feedback** (2 weeks)
-   - Conduct user testing and gather feedback.
-   - Fix any bugs and make improvements based on feedback.
-
-5. **Phase 5: Launch** (1 week)
-   - Deploy the application on Vercel.
-   - Promote the application to potential users.
 
 ## Future Enhancements
 
